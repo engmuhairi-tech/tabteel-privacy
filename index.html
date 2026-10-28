@@ -119,7 +119,7 @@
     <section>
       <h2>الموقع</h2>
       <p>يطلب التطبيق إذن الموقع لغرضين فقط: حساب أوقات الصلاة، وتحديد اتجاه القبلة. الحساب نفسه يتم على جهازك.</p>
-      <p>لعرض اسم مدينتك يرسل التطبيق إحداثيات الموقع إلى خدمة <span class="host">nominatim.openstreetmap.org</span> التابعة لمؤسسة OpenStreetMap، وتعيد الخدمة اسم المكان. تخضع هذه الخدمة <a href="https://osmfoundation.org/wiki/Privacy_Policy">لسياسة خصوصية مؤسسة OpenStreetMap</a>.</p>
+      <p>لعرض اسم مدينتك يرسل التطبيق موقعًا <strong>تقريبيًا</strong> (مقرّبًا إلى نحو كيلومتر واحد، لا موقعك الدقيق) إلى خدمة تحديد الأماكن في نظام جوالك (Apple أو Google)، وإن لم تتوفر فإلى خدمة <span class="host">nominatim.openstreetmap.org</span> التابعة لمؤسسة OpenStreetMap، وتعيد الخدمة اسم المكان. تخضع هذه الخدمة <a href="https://osmfoundation.org/wiki/Privacy_Policy">لسياسة خصوصية مؤسسة OpenStreetMap</a>.</p>
       <p>يمكنك رفض إذن الموقع أو سحبه في أي وقت من إعدادات جهازك، وتبقى بقية أقسام التطبيق تعمل.</p>
     </section>
 
@@ -132,7 +132,7 @@
           <tbody>
             <tr><td><span class="host">api.alquran.cloud</span></td><td>نص القرآن وترجمة Pickthall الإنجليزية</td><td>رقم السورة أو الآية</td></tr>
             <tr><td><span class="host">api.quran.com</span></td><td>النطق الإنجليزي للآيات (Transliteration)</td><td>رقم السورة أو الآية</td></tr>
-            <tr><td><span class="host">nominatim.openstreetmap.org</span></td><td>اسم المدينة</td><td>إحداثيات الموقع</td></tr>
+            <tr><td><span class="host">nominatim.openstreetmap.org</span></td><td>اسم المدينة</td><td>موقع تقريبي (نحو ١ كم)</td></tr>
           </tbody>
         </table>
       </div>
@@ -205,7 +205,7 @@
     <section>
       <h2>Location</h2>
       <p>The app asks for location permission for two things only: calculating prayer times and finding the Qibla direction. The calculation runs on your device.</p>
-      <p>To show your city name, the app sends your coordinates to <span class="host">nominatim.openstreetmap.org</span>, run by the OpenStreetMap Foundation, which returns the place name. That service is covered by the <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation privacy policy</a>.</p>
+      <p>To show your city name, the app sends an <strong>approximate</strong> location (rounded to about 1 km, not your exact position) to your phone's built-in place lookup (Apple or Google), or, if that is unavailable, to <span class="host">nominatim.openstreetmap.org</span>, run by the OpenStreetMap Foundation, which returns the place name. That service is covered by the <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation privacy policy</a>.</p>
       <p>You can refuse or withdraw location permission at any time in your device settings. The rest of the app keeps working.</p>
     </section>
 
@@ -218,7 +218,7 @@
           <tbody>
             <tr><td><span class="host">api.alquran.cloud</span></td><td>Quran text and the Pickthall English translation</td><td>Surah or verse number</td></tr>
             <tr><td><span class="host">api.quran.com</span></td><td>English transliteration of verses</td><td>Surah or verse number</td></tr>
-            <tr><td><span class="host">nominatim.openstreetmap.org</span></td><td>City name</td><td>Location coordinates</td></tr>
+            <tr><td><span class="host">nominatim.openstreetmap.org</span></td><td>City name</td><td>Approximate location (about 1 km)</td></tr>
           </tbody>
         </table>
       </div>
